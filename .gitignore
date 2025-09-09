@@ -1,0 +1,29 @@
+# --- Entorno virtual ---
+.venv/
+venv/
+
+# --- Cachés de Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+
+# --- Archivos del sistema / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Variables de entorno / secretos ---
+.env
+.env.*
+*.env
+
+# --- Logs ---
+*.log
+
+# --- Datos del proyecto (no subir excels reales) ---
+api/data/*
+!api/data/.gitkeep
