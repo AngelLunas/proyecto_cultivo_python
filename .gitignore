@@ -23,7 +23,3 @@ Thumbs.db
 
 # --- Logs ---
 *.log
-
-# --- Datos del proyecto (no subir excels reales) ---
-api/data/*
-!api/data/.gitkeep
